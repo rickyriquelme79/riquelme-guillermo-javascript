@@ -1,15 +1,59 @@
 
-.navbar-brand{
-    font-size: xx-large;
+*{margin: 0px;padding: 0px;}
+
+/**********BODY***************************/
+/**********HEADER*************************/
+body{
+    background-color: aquamarine;
 }
-.navbar-brand{
-    font-family: titan one ;
+
+/**************NAV**********************/
+
+
+/*********ASIDE***************************/
+aside {
+    display: flex;
+    justify-content:space-around;
+    background-color: cadetblue;
+
+    
 }
-.navbar-expand-sm{
-    background: rgb(253,45,67);
-    background: linear-gradient(67deg, rgba(253,45,67,1) 20%, rgba(34,48,195,1) 100%);    
+    .but-aside{
+        width: 7rem;
+        height: 2rem;
+        font-style: italic;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 1%;
+        font-size: large;
+    }
+
+
+/************MAIN**************************/
+main{
+    
+    display: flex;
+    padding: 2%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
 }
-.nav-link{
+    .card{
+        margin: 2%;
+        padding: 1%;
+        font-size: xx-large;
+        text-align: center;
+        
+    }
+    
+      
+
+
+
+/****************footer********************/
+footer{
+    text-align: center;
+    background-color: black;
     color: aliceblue;
 }
 
