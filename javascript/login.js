@@ -2,7 +2,7 @@ function login(){
     let name=prompt("ingresa tu nombre")
     let pass=prompt("ingresa tu password")
 
-    if (user==="admin" && pass==="admin" ){
+    if (name==="admin" && pass==="admin" ){
     alert("Bienvenido al sitio")
   }  
     else{alert("datos incorrectos")}
